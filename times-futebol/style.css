@@ -1,0 +1,29 @@
+body{
+    background-color: rgba(50, 172, 2, 0.932);
+    background-image: url("imagens/gramado.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+header > h1{ 
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 2px 2px 0px black;
+    font-family: sans-serif; 
+    }
+main{
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin:auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 100px black;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+main > img{ 
+    width: 200px;
+    margin: 5px;
+    }
