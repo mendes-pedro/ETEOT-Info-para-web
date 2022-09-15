@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+p{
+    text-indent: 3em;
+}
+
+body {
+    background-color: #edeae9;
+    background-image: url("imagens/papel-parede.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main {
+    margin: auto;
+    background-color: white;
+    max-width: 1000px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px;
+}
+picture{
+    display: block;
+}
+picture > img {
+    width: 100%;
+}
+div#filme > video {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+}
+div#mapa > iframe{
+    display: block;
+    width: 100%;
+}
