@@ -1,0 +1,55 @@
+/* 
+FONTE USADA 
+Secular One: https://fonts.google.com/specimen/Secular+One 
+
+CORES USADAS
+Azul: #4284f7
+Verde: #31ad5a
+Vermelho: #e64231
+Amarelo: #ffbd29
+*/
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+/* font-family: 'Secular One', sans-serif; */
+body{
+    background-image: url(imagens/google-wallpaper.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header, main, aside, section{
+    background-color: white;
+    margin: 25px auto;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    text-indent: 3em;
+    line-height: 1.5em;
+}
+div > iframe, div > video, picture > img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+h1, h2, h3{
+    font-family: 'Secular One', sans-serif;    
+}
+h1{
+    color: #4284f7;
+    font-size: 4em;
+    text-align: center;
+}
+h2{
+    color: #e64231;
+    font-size: 2.5em;
+}
+h3{
+    color: #31ad5a;
+    font-size: 2em;
+}
