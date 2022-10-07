@@ -32,12 +32,8 @@ picture{
 picture > img {
     width: 100%;
 }
-div#filme > video {
+div > iframe{
     display: block;
-    margin: 20px auto;
     width: 80%;
-}
-div#mapa > iframe{
-    display: block;
-    width: 100%;
+    margin: auto;
 }
