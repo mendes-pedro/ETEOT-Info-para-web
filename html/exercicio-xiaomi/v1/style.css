@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+body{
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(imagens/exercicio-background.jpg);
+}
+main{
+    background-color: white;
+    max-width: 900px;
+    padding: 15px;
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+h1{
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    color: #e4614a;
+    font-size: 3em;
+}
+h2{
+    font-family: 'Courgette', cursive;
+    color: #e4614a;
+    font-size: 2em;
+}
+p{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 3em;
+}
+section{
+    background-color: white;
+    max-width: 900px;
+    padding: 15px;
+    margin: 50px auto;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+div#filme{
+    background-color: black;
+    padding: 8px;
+}
+div#filme > video{ 
+    display: block;
+    width: 100%;
+    margin: auto;   
+}
+picture > img{
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+}
+table, td, th {
+    border: 1px solid black;
+}
+table{
+    border-spacing: 0px;
+}
+th{
+    background-color: gray;
+    color: white;
+}
+td, th{
+    padding: 10px;
+}
+/* @media screen and (max-width: 500px){
+    div#imagem >img {
+        display: none;
+    }
+    div#imagem > img#peq {
+        display: block;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 800px){
+    div#imagem >img {
+        display: none;
+    }
+    div#imagem > img#med {
+        display: block;
+    }
+}
+@media screen and (min-width: 801px){
+    div#imagem >img {
+        display: none;
+    }
+    div#imagem > img#grd {
+        display: block;
+    }
+} */

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1, h2 {
+    font-family: 'Courgette', cursive;
+    color: #e44d39;
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+p{
+    text-indent: 3em;
+    text-align: justify;
+    line-height: 1.5em;
+}
+body{
+    background-image: url(imagens/exercicio-background.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main, article{
+    background-color: white;
+    margin: 25px auto;
+    max-width: 1000px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+div > video{
+    display: block;
+    max-width: 80%;
+    margin: auto;
+}
+picture > img{
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+table, td, th{
+    border: 1px solid black;
+    border-spacing: 0px;
+}
+th{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+td{
+    padding: 10px;
+}
