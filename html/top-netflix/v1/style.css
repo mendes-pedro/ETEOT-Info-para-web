@@ -1,0 +1,66 @@
+/* font bebas neue */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+body{
+    background-color: black;
+    background-image: url(imagens/wallpaper-netflix.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    color: #e00914;
+    font-size: 4em;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 400;
+}
+main{
+    max-width: 800px;
+    margin: auto;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+}
+header > p{
+    font-size: 1.5em;
+    text-align: left;
+    text-shadow: 2px 2px 2px black;
+}
+article{
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 25px 0px;
+    box-shadow: 5px 5px 5px black;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5em;
+    text-align: justify;
+}
+h2{
+    color: #e00914;
+    font-size: 2.5em;
+}
+article > picture > img{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    height: 250px;
+}
+video{
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+}
+header > picture > img{
+    display: block;
+    max-width: 300px;
+    max-height: 200px;
+    margin: auto;
+}

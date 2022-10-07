@@ -1,0 +1,57 @@
+/* 
+    == FONTE USADA ==
+    Família Verdana, Geneva, Tahoma, todas sem serifa
+    
+    == CORES USADAS ==
+    rosa escuro: #b30d97
+    rosa claro: #d70fb7
+*/
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url(imagens/papel-parede-site.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    max-width: 600px;
+    margin: auto;
+}
+header, article{
+    box-shadow: 0px 0px 10px black;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 25px auto;
+}
+header{
+    background-color: #b30d97;
+    color: white;
+}
+article{
+    background-color: white;
+    color: #d70fb7;
+}
+header > picture > img, div > video{
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 15px;
+}
+article > picture > img{
+    display: block;
+    margin: auto;
+    max-width: 200px;
+    border-radius: 100%;
+    border: #d70fb7 solid 5px;
+}
+p{
+    text-indent: 3em;
+    text-align: justify;
+    line-height: 1.5em;
+}
+article > p{
+    color: black;
+}
